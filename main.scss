@@ -31,4 +31,37 @@ body {
       }
     }
   }
+
+  .parent {
+    .fs {
+      &-small {
+        font-size: 12px;
+      }
+
+      &-medium {
+        font-size: 14px;
+      }
+
+      &-large {
+        font-size: 16px;
+      }
+    }
+
+    ul {
+      padding-left: 0;
+
+      li {
+        list-style: none;
+
+        &:last-child {
+          color: red;
+        }
+
+        &:hover {
+          color: white;
+          background-color: darkseagreen;
+        }
+      }
+    }
+  }
 }
