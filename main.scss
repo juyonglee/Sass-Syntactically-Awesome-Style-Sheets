@@ -1,5 +1,15 @@
+$color: #c38098;
+$background-color: beige;
+
+body {
+  background-color: $background-color;
+}
+
 .container {
   h1 {
-    color: #c38098;
+    // Font-Color 설정
+    color: $color;
+    /* font-style: oblique; */
+    /*! font-style: oblique; */
   }
 }
