@@ -12,4 +12,23 @@ body {
     /* font-style: oblique; */
     /*! font-style: oblique; */
   }
+
+  .user {
+    > ul {
+      padding-left: 20px;
+
+      li {
+        list-style: none;
+        font-size: 25px;
+
+        .name {
+          color: brown;
+        }
+
+        .age {
+          color: chocolate;
+        }
+      }
+    }
+  }
 }
